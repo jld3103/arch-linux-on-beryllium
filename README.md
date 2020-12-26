@@ -138,3 +138,11 @@ systemctl enable --now --user anbox-session-manager
 ```
 
 and then reboot.
+
+# Debugging modem
+
+Some commands useful for modem debugging:
+
+```bash
+journalctl -b |& grep -E "rmtfs|qrtr|tqftpserv|mapper|mount_modem_firmware"
+```

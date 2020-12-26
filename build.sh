@@ -221,6 +221,7 @@ systemctl enable tqftpserv
 systemctl enable rmtfs
 systemctl enable pd-mapper
 systemctl enable first_time_setup
+systemctl enable mount_modem_firmware
 
 $POST_SCRIPT
 
